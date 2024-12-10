@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TODO: Overall dimensions-->
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="minHeight">48dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <!--TODO: CardView-->
+    <dimen name="margin_CardVieW">8dp</dimen>
+    <dimen name="cardCornerRadius">6dp</dimen>
+    <dimen name="cardElevation">6dp</dimen>
+    <!--TODO: Start Fragment-->
+    <dimen name="button_width_start_fragment">200dp</dimen>
+    <dimen name="button_height_start_fragment">200dp</dimen>
+    <dimen name="button_margin_start_fragment">8dp</dimen>
+    <dimen name="button_elevation_start_fragment">6dp</dimen>
+    <dimen name="button_text_size_start_fragment">15sp</dimen>
+    <dimen name="button_cornerRadius_start_fragment">100dp</dimen>
+    <dimen name="button_strokeWidth_start_fragment">1dp</dimen>
+    <!--TODO: Color Fragment-->
+    <dimen name="colorTextTV_textSize">40sp</dimen>
+</resources>

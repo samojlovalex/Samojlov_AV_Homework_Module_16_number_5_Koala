@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.samojlov_av_homework_module_16_number_5_koala.fragments.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start">
+        <action
+            android:id="@+id/action_startFragment_to_redFragment"
+            app:destination="@id/redFragment"
+            app:enterAnim="@anim/manifestation"
+            app:exitAnim="@anim/manifestation_out"
+            app:popEnterAnim="@anim/manifestation"
+            app:popExitAnim="@anim/manifestation_out" />
+        <action
+            android:id="@+id/action_startFragment_to_yellowFragment"
+            app:destination="@id/yellowFragment"
+            app:enterAnim="@anim/manifestation"
+            app:exitAnim="@anim/manifestation_out"
+            app:popEnterAnim="@anim/manifestation"
+            app:popExitAnim="@anim/manifestation_out" />
+        <action
+            android:id="@+id/action_startFragment_to_greenFragment"
+            app:destination="@id/greenFragment"
+            app:enterAnim="@anim/manifestation"
+            app:exitAnim="@anim/manifestation_out"
+            app:popEnterAnim="@anim/manifestation"
+            app:popExitAnim="@anim/manifestation_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/redFragment"
+        android:name="com.example.samojlov_av_homework_module_16_number_5_koala.fragments.RedFragment"
+        android:label="fragment_red"
+        tools:layout="@layout/fragment_red">
+        <argument
+            android:name="redMyArg"
+            android:defaultValue="ApplicationAndroid"></argument>
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/yellowFragment"
+        android:name="com.example.samojlov_av_homework_module_16_number_5_koala.fragments.YellowFragment"
+        android:label="fragment_yellow"
+        tools:layout="@layout/fragment_yellow">
+        <argument
+            android:name="yellowMyArg"
+            android:defaultValue="ApplicationAndroid"></argument>
+
+    </fragment>
+    <fragment
+        android:id="@+id/greenFragment"
+        android:name="com.example.samojlov_av_homework_module_16_number_5_koala.fragments.GreenFragment"
+        android:label="fragment_green"
+        tools:layout="@layout/fragment_green" >
+        <argument
+            android:name="greenMyArg"
+            android:defaultValue="ApplicationAndroid"></argument>
+
+    </fragment>
+</navigation>

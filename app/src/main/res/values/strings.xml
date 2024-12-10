@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Samojlov_AV_Homework_Module_16_number_5_Koala</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--TODO Menu-->
+    <string name="toolbar_title">Светофор</string>
+    <string name="toolbar_subtitle">Mod. 16 № 5</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="toast_exit">Приложение закрыто</string>
+    <!--TODO Start Fragment-->
+    <string name="redBT_Text">Красный</string>
+    <string name="yellowBT_Text">Желтый</string>
+    <string name="greenBT_Text">Зеленый</string>
+    <string name="descriptionColor_Yellow">Внимание!</string>
+    <string name="textFragment">%1$s\n%2$s</string>
+    <string name="descriptionColor_Red">Стой!</string>
+    <string name="descriptionColor_Green">Движение разрешено!</string>
+    <!--TODO Color Fragment-->
+    <string name="redColorTextTV_Text">Красный</string>
+    <string name="yellowColorTextTV_Text">Желтый</string>
+    <string name="greenColorTextTV_Text">Зеленый</string>
+    <string name="color_Hint">Цвет</string>
+
+</resources>

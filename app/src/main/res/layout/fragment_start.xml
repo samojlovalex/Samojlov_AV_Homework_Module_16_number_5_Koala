@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.StartFragment">
+
+    <LinearLayout
+        android:layout_width="@dimen/button_width_start_fragment"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/redBT"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_start_fragment"
+            android:layout_marginLeft="@dimen/button_margin_start_fragment"
+            android:layout_marginRight="@dimen/button_margin_start_fragment"
+            android:elevation="@dimen/button_elevation_start_fragment"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/redBT_Text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size_start_fragment"
+            android:transitionName="redBT"
+            app:backgroundTint="@color/Red"
+            app:backgroundTintMode="src_over"
+            app:cornerRadius="@dimen/button_cornerRadius_start_fragment"
+            app:rippleColor="@color/black"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="@dimen/button_strokeWidth_start_fragment"
+            app:tint="@color/white"></com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/yellowBT"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_start_fragment"
+            android:layout_marginLeft="@dimen/button_margin_start_fragment"
+            android:layout_marginRight="@dimen/button_margin_start_fragment"
+            android:elevation="@dimen/button_elevation_start_fragment"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/yellowBT_Text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size_start_fragment"
+            android:transitionName="yellowBT"
+            app:backgroundTint="@color/Yellow"
+            app:backgroundTintMode="src_over"
+            app:cornerRadius="@dimen/button_cornerRadius_start_fragment"
+            app:rippleColor="@color/black"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="@dimen/button_strokeWidth_start_fragment"
+            app:tint="@color/white"></com.google.android.material.button.MaterialButton>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/greenBT"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height_start_fragment"
+            android:layout_marginLeft="@dimen/button_margin_start_fragment"
+            android:layout_marginRight="@dimen/button_margin_start_fragment"
+            android:elevation="@dimen/button_elevation_start_fragment"
+            android:shadowColor="@color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="@string/greenBT_Text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size_start_fragment"
+            android:transitionName="greenBT"
+            app:backgroundTint="@color/Green"
+            app:backgroundTintMode="src_over"
+            app:cornerRadius="@dimen/button_cornerRadius_start_fragment"
+            app:rippleColor="@color/black"
+            app:strokeColor="@color/Blue"
+            app:strokeWidth="@dimen/button_strokeWidth_start_fragment"
+            app:tint="@color/white"></com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
